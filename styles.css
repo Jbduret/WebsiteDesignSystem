@@ -1,0 +1,191 @@
+:root {
+    --deep-blue:#0E699E;
+	--sky-blue:#3BB7FF;
+	--ocean-blue:#1EA1EB;
+	--deep-orange:#9E5D07;
+	--tails-orange:#ED8800;
+}
+
+* {
+	font-Family: 'Open Sans', Sans-Serif;
+	font-Size: 15px;
+	color: #000000;
+}
+
+body {
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', Sans-Serif;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	padding: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h3 {
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.container {
+	padding: 40px;
+	background-color: #FFFFFF;
+}
+
+.font-section {
+	background-color: #000000;
+}
+
+.font-grid {
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.style-grid {
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.separator {
+	margin: 20px 0px;
+  	height: auto;
+	width: 1px;
+}
+
+.color-separator {
+	margin: 0px 150px;
+  	width: auto;
+	height: 1px;
+	border-top: 1px solid grey;
+}
+
+.grey-separator {
+	border-left: 1px solid grey;
+}
+
+.white-separator {
+	border-left: 1px solid #FFFFFF;
+}
+
+.white-font {
+	color: #FFFFFF;
+}
+
+.colors {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dominant {
+	margin-bottom: 40px;
+}
+
+.color {
+	margin: 0px 20px;
+	padding: 20px;
+	border-radius: 10px;
+	height: 100px;
+	width: 20%;
+	text-align: center;
+}
+
+.color-box {
+	color: #FFFFFF;
+}
+
+.deep-blue {
+	background-color: #0E699E;
+}
+
+.sky-blue {
+	background-color: #3BB7FF;
+}
+
+.ocean-blue {
+	background-color: #1EA1EB;
+}
+
+.deep-orange {
+	background-color: #9E5D07;
+}
+
+.tails-orange {
+	background-color: #ED8800;
+}
+
+.font {
+	margin: 0px 40px;
+}
+
+.open-sans {
+	font-Family: 'Open Sans', Sans-Serif;
+}
+
+.raleway {
+	font-Family: 'Raleway', Sans-Serif;
+}
+
+.font-title {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.basic, .italic, .bold {
+	margin-left: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.style-title {
+	color: #000000;
+	text-align: left;
+	margin: 10px;
+	padding: 0px;
+}
+
+
+  
+/*nav li {
+	display: inline-block
+}
+  
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 50px;
+	text-decoration: none;
+}
+  
+nav li a:hover {
+	background-color: var(--sky-blue);
+}*/
